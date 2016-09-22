@@ -1,5 +1,4 @@
 #!/bin/sh -e
-
 SCRIPTS_PATH=/home/ubuntu/installdesk/
 apt-get update
 git clone --depth 1 https://github.com/superdesk/install-scripts.git $SCRIPTS_PATH
