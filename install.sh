@@ -3,7 +3,6 @@
 SCRIPTS_PATH=/mnt/install-scripts
 
 apt-get update
-apt-get install git
 
 git clone --depth 1 https://github.com/superdesk/install-scripts.git $SCRIPTS_PATH
 git clone --depth 1 https://github.com/superdesk/superdesk.git /mnt/superdesk
